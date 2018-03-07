@@ -11,5 +11,5 @@ function setBestCustomer() {
 }
 
 function overwriteBestCustomer(newFavorite) {
-  bestCustomer = 'maybe bob';
+  bestCustomer = newFavorite;
 }
